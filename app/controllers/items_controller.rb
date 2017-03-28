@@ -37,7 +37,7 @@ class ItemsController < ApplicationController
   # DELETE /items/1
   # DELETE /items/1.json
   def destroy
-    if @item.destroy(item_params)
+    if @item.destroy
       render :show, status: :ok, location: @item
      else
       render json: @item.errors, status: :unprocessable_entity
