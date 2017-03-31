@@ -13,7 +13,8 @@ gem 'carrierwave-base64'
  gem 'jbuilder', '~> 2.0' 
  gem 'rack-cors'
   gem "paperclip", "~> 5.0.0.beta1"
-  gem 'capistrano-rbenv', '~> 2.1'
+  gem 'capistrano-rbenv', '~> 2.1'	
+  gem 'concurrent-ruby', '~> 1.0', '>= 1.0.5'
 # Use sqlite3 as the database for Active Record
 # gem 'sqlite3'
 gem 'pg'
