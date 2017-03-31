@@ -2,8 +2,8 @@
 lock "3.8.0"
 
 set :application, "fileuploadapp"
-set :repo_url, "git@example.com:me/my_repo.git"
-set :deploy_to, '/home/deploy/fileuploadap'
+set :repo_url, "https://github.com/r3hmaanMalik/audio-passenger.git"
+set :deploy_to, '/home/deploy/fileuploadapp'
 
 append :linked_files, "config/database.yml", "config/secrets.yml"
 append :linked_dirs, "log", "tmp/pids", "tmp/cache", "tmp/sockets", "vendor/bundle", "public/system", "public/uploads"

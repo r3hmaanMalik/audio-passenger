@@ -6,8 +6,8 @@ require "capistrano/deploy"
 
 require 'capistrano/rbenv'
 set :rbenv_type, :user
-# set :rbenv_ruby, '2.4.0'
-set :rbenv_ruby, File.read('.ruby-version').strip
+set :rbenv_ruby, '2.4.0'
+# set :rbenv_ruby, File.read('.ruby-version').strip
 # Load the SCM plugin appropriate to your project:
 #
 # require "capistrano/scm/hg"
